@@ -1,0 +1,990 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1728931434785668, "dur":22549, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728931434808220, "dur":114, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728931434808362, "dur":80, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728931434808448, "dur":3296, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728931434811744, "dur":58609693, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1728931493421649, "dur":4039, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":0, "ts":1728931493425688, "dur":323, "ph":"X", "name": "Tundra",  "args": { "detail":"SaveScanCache" }}
+,{ "pid":12345, "tid":1, "ts":1728931434808416, "dur":3336, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931434811755, "dur":7767, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931434819523, "dur":1620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1728931434821144, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931434823123, "dur":270, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434823508, "dur":581, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434824144, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434824258, "dur":284, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434824556, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434824708, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1728931434822158, "dur":2629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/il2cpp_conv_lyn0.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1728931434824987, "dur":86, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931434845484, "dur":4991848, "ph":"X", "name": "IL2CPP_CodeGen",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/il2cpp_conv_lyn0.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1728931439840472, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.AI.Navigation.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439840636, "dur":302, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.AI.Navigation.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439840942, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439840462, "dur":690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4jse2i89y0i6.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841220, "dur":105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841329, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841190, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q42e82yugutq.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841469, "dur":154, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SubsystemsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841442, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2sl6y10ndix4.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841652, "dur":714, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439842366, "dur":2737, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439845117, "dur":469, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439841648, "dur":3938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dziweiunfmvj.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439845680, "dur":458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__61.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439846138, "dur":651, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__61.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439846792, "dur":129, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439845627, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i05n3ur78f3e.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439846970, "dur":109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Configuration.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439847083, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439846932, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2rlxbokepx1u.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439847338, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439847402, "dur":160, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2rlxbokepx1u.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439847609, "dur":749, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439848358, "dur":3173, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439851537, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439847563, "dur":4135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qm1s1mrtckxi.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439851727, "dur":660, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439852387, "dur":2256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439854659, "dur":460, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439851722, "dur":3397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qe82t4xzowx7.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439855180, "dur":1228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439856421, "dur":2159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439858606, "dur":129, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439855143, "dur":3593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xpslhl0mmy10.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439858786, "dur":107, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439858896, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439858759, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c54tfqs44fhy.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859007, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859114, "dur":228, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859345, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859003, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/exu2jv1lzgb3.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859479, "dur":255, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859734, "dur":542, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439860279, "dur":137, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439859475, "dur":942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9rvknzxp1opa.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439860444, "dur":548, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439860993, "dur":2950, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439863959, "dur":398, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439860439, "dur":3918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5w1kzp9m8s6n.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864358, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864432, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aqdez7xoomlm.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864553, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864672, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864794, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439864654, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/60w65xsmp4cn.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439865060, "dur":584, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439865644, "dur":1050, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439866699, "dur":170, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439865055, "dur":1814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cv80mt02jqp3.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439866990, "dur":628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439867619, "dur":1467, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439869090, "dur":154, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439866906, "dur":2338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1w92o4wnk4uz.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439869275, "dur":426, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__40.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439869701, "dur":713, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__40.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439870418, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439869268, "dur":1255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3nl514vb03n9.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439870560, "dur":546, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439871106, "dur":979, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872089, "dur":189, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439870550, "dur":1728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ooeger9j0zzy.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872292, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872353, "dur":178, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872534, "dur":169, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872288, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3gy2id1072vi.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872724, "dur":730, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__26.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439873454, "dur":1310, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__26.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439874768, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439872720, "dur":2209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3p3ogry0emyj.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439874946, "dur":504, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439875450, "dur":1018, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439876472, "dur":142, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439874939, "dur":1675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pcxv1jesvcbx.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439876614, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439876803, "dur":1981, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439878788, "dur":923, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439879714, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439876747, "dur":3128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bhuayzwm669m.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439879963, "dur":436, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439880399, "dur":838, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439881241, "dur":114, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439879895, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/we02hsz0g8kq.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439881387, "dur":2897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439884285, "dur":3203, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439881382, "dur":6122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/snk4lr68s4ki.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439887535, "dur":293, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439887828, "dur":746, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439888579, "dur":188, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439887531, "dur":1236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y29zpwhguwwg.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439888794, "dur":611, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439889405, "dur":2431, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439891855, "dur":363, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439888788, "dur":3430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wgboa2iietta.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439892256, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jvw7cbkdzu63.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439892417, "dur":613, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__31.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439893031, "dur":886, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__31.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439893920, "dur":114, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439892410, "dur":1624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h1oa9qks0m0x.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894071, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894282, "dur":506, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894792, "dur":122, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894063, "dur":851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xn841x3j9swu.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894915, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439895052, "dur":807, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439895859, "dur":1168, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897034, "dur":121, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439894995, "dur":2160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xupezvmyrc9q.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897268, "dur":64, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897222, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bx5lrj2ydiqc.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897407, "dur":57, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.AI.Navigation_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897380, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kldbghkkcvj2.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897510, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897945, "dur":1139, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439899088, "dur":294, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439897504, "dur":1879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nrsajffl1x20.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439899487, "dur":1785, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439901285, "dur":1126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439902414, "dur":238, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439899450, "dur":3203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x9gfvznp993k.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439902711, "dur":412, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439903124, "dur":1018, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439904146, "dur":120, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439902694, "dur":1573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fanren2be0i2.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439904281, "dur":538, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439904819, "dur":865, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439905688, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439904277, "dur":1519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y94mkvm7cvmm.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439905834, "dur":666, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__37.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439906501, "dur":1043, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__37.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439907547, "dur":236, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439905827, "dur":1956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b0no9t4flteu.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439907828, "dur":90, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439907921, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439907799, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/htp1nunnez8a.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439908030, "dur":543, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439908574, "dur":1515, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439910093, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439908026, "dur":2182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4zwg5vyhwb77.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439910230, "dur":254, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439910484, "dur":564, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439911051, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439910223, "dur":927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xz1epkssxsdz.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439911176, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qra7dxupma36.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439911279, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439911730, "dur":777, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439912512, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439911273, "dur":1344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jbhae6o6eitp.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439912631, "dur":425, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__19.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439913057, "dur":893, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__19.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439913954, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439912626, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3quyn2hdmv36.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914066, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kliimr0w0jth.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914202, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914427, "dur":329, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914196, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wr9ayuipa2g7.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914787, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b6u0gxqymck6.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914881, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439915023, "dur":140, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439914877, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/juqwplqjmb4i.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439915183, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/winbwxrujafi.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439915260, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__20.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439915623, "dur":897, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__20.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439916525, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439915256, "dur":1382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pjl3kugevtpj.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439916685, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439917285, "dur":1269, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439918558, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439916667, "dur":2052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b17zus4kb5hr.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439918763, "dur":1491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439920254, "dur":801, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439921059, "dur":116, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439918756, "dur":2419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8z0v425guizh.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439921202, "dur":251, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439921453, "dur":641, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439922098, "dur":104, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439921187, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yh1vff4ndcl0.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439922211, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3haytj09rxeo.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439922314, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__35.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439922593, "dur":624, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__35.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439923220, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439922310, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pc0j949je3lv.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439923326, "dur":1841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439925167, "dur":3669, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439928840, "dur":132, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439923322, "dur":5651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bup3epfumvu9.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929034, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929103, "dur":96, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929026, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pvo1offjipro.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929234, "dur":365, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929599, "dur":769, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930371, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439929229, "dur":1247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z1u836gs2gjl.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930552, "dur":74, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930493, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/esplbzk9k0he.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930656, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ieqv449oz95k.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930727, "dur":414, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439931142, "dur":749, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439931895, "dur":128, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439930723, "dur":1300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pdkvu39o4eps.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932037, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uccztiuadlbc.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932113, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932290, "dur":523, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932816, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932109, "dur":807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ylematoqwhyy.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932927, "dur":455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439933383, "dur":695, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439934081, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439932923, "dur":1259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/as0jhtspy0mg.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439934215, "dur":310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__34.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439934525, "dur":628, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__34.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439935156, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439934211, "dur":1042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o4f3optla14f.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439935272, "dur":339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439935611, "dur":919, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439936534, "dur":107, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439935268, "dur":1373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jja0loi025s0.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439936654, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439937000, "dur":797, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439937801, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439936650, "dur":1250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/23w84gslyhwk.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439937907, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6vs305q3vr2w.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439937981, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439938075, "dur":257, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439938336, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439937977, "dur":455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8dbygp3uq8gj.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439938445, "dur":454, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439938899, "dur":872, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439939774, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439938441, "dur":1435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/97kcpimfykgx.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439939913, "dur":523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439940437, "dur":1869, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439942310, "dur":121, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439939902, "dur":2529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/atnjadom720b.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439942448, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b7rb79dj3wmh.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439942537, "dur":549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439943086, "dur":1102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439944192, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439942533, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ytasjr0tye25.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439944346, "dur":432, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439944778, "dur":1064, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439945845, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439944340, "dur":1614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ygf2m2p8pkpp.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439945971, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439946055, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439945965, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iqjr1f7d6jsy.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439946389, "dur":476, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439946866, "dur":933, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439947802, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439946347, "dur":1570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fgh1i1ptnhh3.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439947934, "dur":297, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__25.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439948231, "dur":642, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__25.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439948876, "dur":339, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439947929, "dur":1288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ia000hk3bym0.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439949219, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439949328, "dur":895, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439950223, "dur":744, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439949311, "dur":1674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1ixjl5jgmonb.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439951002, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__49.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439951366, "dur":878, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__49.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952248, "dur":125, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439950997, "dur":1376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4pbci6osuo6n.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952418, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Core.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952540, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952383, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xsaqifamwbsw.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952666, "dur":292, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952958, "dur":648, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439953610, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439952661, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4xg7euvr1qd9.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439953742, "dur":487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__51.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439954229, "dur":1073, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__51.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439955306, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439953737, "dur":1680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/by54u71q6a4j.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439955436, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439955800, "dur":1297, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439957101, "dur":120, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439955430, "dur":1791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rul9l27rgmey.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439957239, "dur":241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__15.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439957480, "dur":568, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__15.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958051, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439957235, "dur":916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vfjpnosl8ei9.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958175, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q5k5skad81xi.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958269, "dur":80, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Xml.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958353, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958250, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z899cqnvyssx.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958468, "dur":514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958983, "dur":980, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439959966, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439958464, "dur":1602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/khywjgvp54u4.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439960091, "dur":369, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439960460, "dur":635, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439961099, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439960086, "dur":1114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nkx7otrjruny.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439961213, "dur":473, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439961686, "dur":943, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439962632, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439961208, "dur":1525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/90a25f16fep4.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439962763, "dur":823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439963587, "dur":1429, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439965020, "dur":123, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439962757, "dur":2386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/24tj9jdmo6bf.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439965162, "dur":479, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439965641, "dur":1360, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439967006, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439965156, "dur":1968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/57gxpbfg0don.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439967168, "dur":233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439967404, "dur":531, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439967938, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439967161, "dur":876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jwiq2b45s808.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439968047, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439968443, "dur":832, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439969279, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439968043, "dur":1341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kj1qyl54ika5.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439969415, "dur":451, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439969866, "dur":901, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439970770, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439969409, "dur":1467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jyzt2r9vt4tl.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439970928, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971032, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439970898, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ulx57w4j23oz.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971177, "dur":116, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SubsystemsModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971296, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971139, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qexcy39iizjh.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971406, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__41.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971710, "dur":686, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__41.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972399, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439971402, "dur":1094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4v5lmkca454o.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972696, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.VRModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972794, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972503, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iivcw19n2qnc.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972902, "dur":389, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439973291, "dur":926, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439974220, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439972898, "dur":1423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q1qmiqip3iy3.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439974351, "dur":411, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439974762, "dur":1425, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439976192, "dur":523, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439974346, "dur":2369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cperifdla9q2.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439976780, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439976943, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439976746, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/43n9ptcm5asl.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439977057, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wjauez6w4eqw.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439977149, "dur":628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439977778, "dur":2796, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439980578, "dur":122, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439977146, "dur":3554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ss95jukhjlg2.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439980724, "dur":459, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__55.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439981183, "dur":2084, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__55.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983271, "dur":143, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439980717, "dur":2698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3g0lqfphjdkl.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983474, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983700, "dur":97, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983425, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yzysnbzeku2o.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983829, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439984211, "dur":873, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439985088, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439983823, "dur":1366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j1haq22nz59h.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439985206, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__48.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439985641, "dur":707, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__48.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439986351, "dur":566, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439985201, "dur":1718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3hrvxq8tqmp8.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439986920, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439986977, "dur":436, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3hrvxq8tqmp8.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439987591, "dur":705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439988296, "dur":991, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439989290, "dur":127, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439987416, "dur":2001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ndmwoj7h7ero.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439989530, "dur":329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439989859, "dur":771, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439990634, "dur":176, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439989441, "dur":1370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/56x4lddw9vlz.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439990832, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439991095, "dur":703, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439991802, "dur":125, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439990826, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2o4r70owrals.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439991999, "dur":184, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439992187, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439991954, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a14c2oe0trlf.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439992296, "dur":571, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439992867, "dur":581, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439992291, "dur":1172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6imnobacyn5c.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993489, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993552, "dur":209, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.XRModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993764, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993484, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gafi2ey35uf4.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993874, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__44.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439994185, "dur":1324, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__44.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439995512, "dur":110, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439993869, "dur":1756, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bzwe2il3dk96.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439995658, "dur":615, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439996273, "dur":406, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439996682, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439995651, "dur":1134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/17b9wnmm497r.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931439996809, "dur":749, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__46.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439997558, "dur":1056, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__46.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931439998618, "dur":1320, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931439996804, "dur":3135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xmkj27fzka25.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440000276, "dur":372, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931440000648, "dur":501, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1728931439999969, "dur":1196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fa7w50e48dyt.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440001180, "dur":756, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440001936, "dur":1069, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__8.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440003008, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931440001174, "dur":1950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rmsjekeysyen.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440003152, "dur":467, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440003620, "dur":1262, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440004886, "dur":531, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931440003148, "dur":2269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mj8tyzymxvll.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440005453, "dur":1020, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__39.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440006473, "dur":3518, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__39.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440009995, "dur":142, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931440005445, "dur":4693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hvu04cxar51w.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440010173, "dur":797, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440010971, "dur":1612, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1728931440012669, "dur":1962, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931440010167, "dur":4465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xnt5dhua8r0q.o" }}
+,{ "pid":12345, "tid":1, "ts":1728931440014686, "dur":525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat" }}
+,{ "pid":12345, "tid":1, "ts":1728931440015528, "dur":306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat" }}
+,{ "pid":12345, "tid":1, "ts":1728931440015841, "dur":444, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1728931440015835, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":1, "ts":1728931440016384, "dur":186886, "ph":"X", "name": "Assemble",  "args": { "detail":"WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":1, "ts":1728931440203440, "dur":299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Build/build.data" }}
+,{ "pid":12345, "tid":1, "ts":1728931440203775, "dur":140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Temp/EditorBuildOutput/MethodMap.tsv" }}
+,{ "pid":12345, "tid":1, "ts":1728931440203915, "dur":52988535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931493192487, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Build/build.wasm" }}
+,{ "pid":12345, "tid":1, "ts":1728931493193803, "dur":227398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1728931493421314, "dur":70, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":2, "ts":1728931434808420, "dur":3348, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434811771, "dur":777, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434812549, "dur":856, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434813405, "dur":746, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434814151, "dur":734, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434814885, "dur":807, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434815692, "dur":511, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434816203, "dur":3361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434819564, "dur":2600, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931434822164, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator /Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931434822786, "dur":423621, "ph":"X", "name": "ClassRegistrationGenerator",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931435246544, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931435246540, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3tynlu8xxb3b.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931435246626, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931435246871, "dur":4593607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439840553, "dur":897, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1728931439841450, "dur":828, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1728931439840496, "dur":1799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s2pufkxmow8h.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439842334, "dur":717, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1728931439843052, "dur":1899, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1728931439844968, "dur":270, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439842328, "dur":2910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t2jnkrdjmyul.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439845324, "dur":667, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439845991, "dur":1081, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439847076, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439845286, "dur":1899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ypv84y2bstis.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439847306, "dur":483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__58.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439847789, "dur":683, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__58.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439848476, "dur":215, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439847200, "dur":1491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qc86ak0bu5tz.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439848721, "dur":125, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439848846, "dur":329, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439849181, "dur":581, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439848715, "dur":1048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nj0wkq6i1573.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439849825, "dur":457, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__54.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439850282, "dur":1124, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__54.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439851412, "dur":169, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439849797, "dur":1784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i1wxa6akgp81.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439851604, "dur":515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__57.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439852119, "dur":656, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__57.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1728931439852778, "dur":118, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439851599, "dur":1297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p4nqq4jdq3ck.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439852952, "dur":54, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1728931439852907, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lwaptqulzpz2.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931439853058, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931439853396, "dur":547835, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lwaptqulzpz2.o" }}
+,{ "pid":12345, "tid":2, "ts":1728931440401335, "dur":53019801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1728931493421208, "dur":52, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":2, "ts":1728931493421311, "dur":144, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434808417, "dur":3344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434811765, "dur":792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434812557, "dur":850, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434813407, "dur":749, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434814156, "dur":777, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434814933, "dur":797, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434815730, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434816199, "dur":3368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434819567, "dur":2616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931434822183, "dur":5018390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439840603, "dur":700, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439841303, "dur":589, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439841895, "dur":131, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439840584, "dur":1442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yvdmywa9buh6.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439842074, "dur":884, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439842958, "dur":2103, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439845083, "dur":683, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439842068, "dur":3699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xacp22e0me1m.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439845769, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439845861, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439846006, "dur":217, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439845855, "dur":386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hsc0wjsdu3no.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439846344, "dur":857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439847202, "dur":829, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439848037, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439846272, "dur":1979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pt65xa2qzgho.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439848313, "dur":640, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__56.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439848953, "dur":1366, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__56.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439850324, "dur":390, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439848277, "dur":2437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ok2av5fnf10.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439850955, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AIModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439851045, "dur":350, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AIModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439851398, "dur":166, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439850739, "dur":825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uqa43jeb33s5.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439851586, "dur":724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439852310, "dur":2296, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439854629, "dur":326, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439851580, "dur":3375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zd3fy9jywhr0.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439855139, "dur":2428, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439857576, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439855003, "dur":2778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ipha18ffs1rt.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439857805, "dur":618, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__32.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439858424, "dur":1141, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__32.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439859569, "dur":173, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439857797, "dur":1945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i98qt60q4ohd.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439859806, "dur":723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__30.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439860529, "dur":1051, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__30.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439861583, "dur":195, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439859791, "dur":1989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wllmth6uxyoe.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439861781, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439861939, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i8ry92xcwszv.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439862027, "dur":1785, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439863836, "dur":1588, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865427, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439862023, "dur":3517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/64l1j5plcvn3.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865579, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TerrainModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865708, "dur":120, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TerrainModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865557, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lb206phvuek4.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865882, "dur":604, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439866486, "dur":1497, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439867987, "dur":126, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439865876, "dur":2237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xov4uhzgivaq.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439868131, "dur":993, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439869124, "dur":1836, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439870972, "dur":195, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439868126, "dur":3041, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3pwqueftxowt.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439871194, "dur":461, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__43.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439871656, "dur":867, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__43.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872526, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439871185, "dur":1454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/arcyh3449hsr.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872671, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s57adkrxmghz.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872852, "dur":69, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872789, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xdqcje63sgu4.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872961, "dur":470, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439873431, "dur":760, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874194, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439872957, "dur":1343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ydo1xwx5t4j.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874338, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874437, "dur":277, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874719, "dur":174, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874306, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nl1sxa3x6u0n.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874921, "dur":289, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439875210, "dur":849, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439876119, "dur":653, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439874902, "dur":1871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yxc210glq0ig.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439876773, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439876865, "dur":1864, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439878736, "dur":1004, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439879745, "dur":387, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439876859, "dur":3275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ns7xhpenz4h9.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439880135, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439880188, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ns7xhpenz4h9.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439880294, "dur":774, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439881068, "dur":901, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439881974, "dur":138, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439880273, "dur":1839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/djo96s63t1dr.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882150, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882373, "dur":230, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882143, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dxtrviy9tlk5.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882653, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882721, "dur":166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882890, "dur":130, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439882648, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9dqiwy7x8fk5.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883036, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883112, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883275, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883029, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b3n9ku7a6pbq.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883390, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h7dvsj0fwmd4.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883476, "dur":523, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439884000, "dur":993, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439884997, "dur":133, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439883472, "dur":1659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d8cuz3yem9rl.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439885169, "dur":536, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439885706, "dur":1267, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__6.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439886979, "dur":182, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439885162, "dur":1999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5y4eevj2l8lo.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439887186, "dur":352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439887538, "dur":686, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439888227, "dur":117, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439887177, "dur":1167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r1dqff0oatga.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439888377, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439888606, "dur":575, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439889184, "dur":117, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439888353, "dur":948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k91qaijm37qx.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439889324, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439889386, "dur":157, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1728931439889547, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931439889309, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dp8r14ipd58p.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931439890132, "dur":1130629, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dp8r14ipd58p.o" }}
+,{ "pid":12345, "tid":3, "ts":1728931441020779, "dur":52400458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1728931493421271, "dur":94, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":4, "ts":1728931434808423, "dur":3351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434811777, "dur":797, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434812574, "dur":864, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434813438, "dur":760, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434814198, "dur":767, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434814965, "dur":769, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434815734, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434816204, "dur":3364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434819568, "dur":2609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931434822177, "dur":5018378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931439840571, "dur":1105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":4, "ts":1728931439841676, "dur":1086, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":4, "ts":1728931439840563, "dur":2245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ddl4j4f9rg2l.o" }}
+,{ "pid":12345, "tid":4, "ts":1728931439843371, "dur":991046, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ddl4j4f9rg2l.o" }}
+,{ "pid":12345, "tid":4, "ts":1728931440834438, "dur":52586751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1728931493421217, "dur":85, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/webmemd-icon.png" }}
+,{ "pid":12345, "tid":4, "ts":1728931493421330, "dur":139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434808424, "dur":3359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434811786, "dur":814, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434812600, "dur":863, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434813463, "dur":748, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434814211, "dur":773, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434814984, "dur":805, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434815790, "dur":3753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931434819547, "dur":47178, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":5, "ts":1728931434866754, "dur":4973749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439840516, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439840631, "dur":307, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439840942, "dur":210, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439840507, "dur":645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k2a6wybyqtlz.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439841174, "dur":289, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k2a6wybyqtlz.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439841482, "dur":995, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":5, "ts":1728931439842477, "dur":554, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":5, "ts":1728931439841465, "dur":1582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8fcypg4p0gbw.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439843061, "dur":1836, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__21.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439844908, "dur":1238, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__21.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439846150, "dur":206, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439843056, "dur":3300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/azor03ubyh12.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439846368, "dur":632, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439847000, "dur":1014, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439848020, "dur":198, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439846363, "dur":1856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c2v7ttsvvmq6.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439848234, "dur":597, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439848831, "dur":1859, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439850768, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439848228, "dur":2641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rkppze4ifjzm.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439850912, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/10xx23rg4i6j.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439851358, "dur":639, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439851997, "dur":2547, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439854561, "dur":694, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439851332, "dur":3923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yngifddcpx34.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439855301, "dur":1097, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439856417, "dur":1001, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439857424, "dur":357, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439855279, "dur":2502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/capx1bmpjaqh.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439857781, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439857914, "dur":788, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__42.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439858703, "dur":1075, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__42.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439859827, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439857842, "dur":2084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pb991tq76tg8.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439859958, "dur":466, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__22.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439860424, "dur":869, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__22.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439861296, "dur":115, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439859952, "dur":1460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vesfgd9805cm.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439861436, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cuncscgtezcy.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439861567, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439861913, "dur":2095, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439864027, "dur":330, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439861563, "dur":2794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jktspmkktnvo.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439864357, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439864632, "dur":1043, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__53.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439865676, "dur":995, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__53.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439866678, "dur":415, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439864547, "dur":2548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xlt9uwwmd1wi.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439867169, "dur":651, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__24.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439867820, "dur":1107, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__24.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439868931, "dur":314, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439867157, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h2fkg2347v5k.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439869332, "dur":720, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__28.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439870052, "dur":1160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__28.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871216, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439869304, "dur":2012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pdrtggtwlcri.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871354, "dur":107, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/__Generated.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871464, "dur":150, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871327, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qagzcc39yy5e.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871639, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871706, "dur":170, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871880, "dur":166, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439871632, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3lny534pxfmd.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439872067, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__11.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439872313, "dur":564, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__11.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439872880, "dur":135, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439872063, "dur":952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3wo8rg5uvc27.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439873028, "dur":435, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__36.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439873464, "dur":942, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__36.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439874409, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439873024, "dur":1488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/as37oeohhrxe.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439874543, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__60.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439874783, "dur":520, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__60.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439875308, "dur":114, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439874537, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xk2znlda6rrv.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439875446, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439875539, "dur":395, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1728931439875946, "dur":490, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931439875441, "dur":995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l78m2v7nsx9r.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931439876662, "dur":1065207, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l78m2v7nsx9r.o" }}
+,{ "pid":12345, "tid":5, "ts":1728931440941892, "dur":52479331, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1728931493421269, "dur":86, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/MemoryProfiler.png" }}
+,{ "pid":12345, "tid":6, "ts":1728931434808430, "dur":3360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434811793, "dur":792, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434812586, "dur":834, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434813420, "dur":739, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434814159, "dur":778, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434814937, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434815722, "dur":470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434816192, "dur":3359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434819566, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931434822169, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json" }}
+,{ "pid":12345, "tid":6, "ts":1728931434822525, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Temp/EditorBuildOutput/UnityLinkerToEditorData.json" }}
+,{ "pid":12345, "tid":6, "ts":1728931434823445, "dur":5017068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439840563, "dur":949, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439841512, "dur":1707, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439843223, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439840555, "dur":2780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c8phy7fd53o7.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439843351, "dur":1723, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439845087, "dur":1014, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439843343, "dur":2785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ztz1mcup5bfm.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439846170, "dur":494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439846664, "dur":1047, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439847716, "dur":155, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439846165, "dur":1706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1345iqkpu791.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439847970, "dur":600, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__12.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439848570, "dur":1741, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__12.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439850316, "dur":337, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439847894, "dur":2759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ocsw7pjsy0dr.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439850745, "dur":489, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439851234, "dur":3265, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439854531, "dur":423, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439850705, "dur":4249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wfoohinl5qff.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439854955, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439855076, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439855132, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppMetadataRegistration.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439855025, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rzx2sygzp1h7.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439855265, "dur":1178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439856450, "dur":969, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439857424, "dur":356, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439855242, "dur":2538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4d3hi1ntws54.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439857964, "dur":391, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__33.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439858356, "dur":828, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__33.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439859188, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439857828, "dur":1459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3ocf9ffo7ctw.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439859301, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439859647, "dur":699, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860349, "dur":126, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439859297, "dur":1178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m51f43qj3ca9.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860544, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860495, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7qnk9fklelif.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860655, "dur":307, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860962, "dur":787, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439861753, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439860651, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0vkpya4qq5sm.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439861895, "dur":490, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439862385, "dur":1864, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439864268, "dur":457, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439861890, "dur":2836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lbbu8utenuew.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439864800, "dur":768, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__50.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439865568, "dur":1109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__50.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439866683, "dur":186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439864787, "dur":2082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qi2gfynt3ms0.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439866935, "dur":657, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__18.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439867592, "dur":1144, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__18.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439868739, "dur":156, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439866902, "dur":1993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2iai3m1eitmr.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439868929, "dur":846, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439869775, "dur":1077, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439870856, "dur":136, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439868923, "dur":2069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iqfdictxp2c6.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439870993, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439871143, "dur":342, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439871485, "dur":533, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872024, "dur":139, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439871105, "dur":1058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/y4p49c6mqzj5.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872226, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872366, "dur":154, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872523, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872208, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qb7bmg6r3p6i.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872706, "dur":71, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872646, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/59qnh9d4g7uw.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872809, "dur":447, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439873257, "dur":722, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439873983, "dur":124, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439872799, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b0k0188n223v.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874127, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TerrainModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874190, "dur":376, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TerrainModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874569, "dur":171, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874122, "dur":619, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lamdenwu01va.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874801, "dur":261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.JSONSerializeModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439875066, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439874752, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sxr5snnerl4h.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439875208, "dur":349, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439875558, "dur":413, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439875977, "dur":169, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439875203, "dur":943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n6zk3q53g7hw.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439876160, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439876473, "dur":1875, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439878368, "dur":353, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439876155, "dur":2566, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/86vyyoti4lek.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439878779, "dur":277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__59.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439879056, "dur":726, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__59.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439879786, "dur":349, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439878750, "dur":1386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bsbvqte9wt5i.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439880166, "dur":77, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bsbvqte9wt5i.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439880253, "dur":516, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__27.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439880769, "dur":983, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__27.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439881755, "dur":364, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439880245, "dur":1875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o56cw0cyhaa3.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439882121, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439882253, "dur":655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439882908, "dur":1344, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439884256, "dur":131, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439882234, "dur":2153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qnkl5ktd31z6.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439884427, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__23.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439884822, "dur":877, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__23.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439885702, "dur":161, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439884420, "dur":1443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wmcw0sp747t1.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439885882, "dur":382, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439886264, "dur":756, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439887033, "dur":226, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439885877, "dur":1382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a0f17eeo5q6p.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439887281, "dur":474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439887755, "dur":714, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439888475, "dur":159, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439887273, "dur":1361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1pyroucm0oyp.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439888668, "dur":785, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439889454, "dur":2378, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439891854, "dur":404, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439888662, "dur":3596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h36tndnhf5a8.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439892297, "dur":891, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439893188, "dur":1323, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1728931439894517, "dur":179, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931439892277, "dur":2420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tmzmey7f79p3.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439894735, "dur":2002, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439896737, "dur":2948, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":6, "ts":1728931439894728, "dur":4974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x52nrg7hclh6.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931439899871, "dur":1524070, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x52nrg7hclh6.o" }}
+,{ "pid":12345, "tid":6, "ts":1728931441423962, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a" }}
+,{ "pid":12345, "tid":6, "ts":1728931441893338, "dur":264, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931441424435, "dur":469186, "ph":"X", "name": "Lib_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a" }}
+,{ "pid":12345, "tid":6, "ts":1728931441893679, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a" }}
+,{ "pid":12345, "tid":6, "ts":1728931441894363, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)" }}
+,{ "pid":12345, "tid":6, "ts":1728931493191690, "dur":354, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1728931441894616, "dur":51297450, "ph":"X", "name": "Link_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)" }}
+,{ "pid":12345, "tid":6, "ts":1728931493192599, "dur":228134, "ph":"X", "name": "Merging",  "args": { "detail":"JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js" }}
+,{ "pid":12345, "tid":6, "ts":1728931493420812, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"build/Build/build.framework.js" }}
+,{ "pid":12345, "tid":6, "ts":1728931493421373, "dur":95, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434808473, "dur":3324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434811801, "dur":806, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434812607, "dur":886, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434813493, "dur":750, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434814243, "dur":731, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434814974, "dur":807, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434815781, "dur":3745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434819572, "dur":1002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1728931434820597, "dur":1582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931434822179, "dur":5018646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439840851, "dur":1458, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__16.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439842309, "dur":2746, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__16.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439845080, "dur":504, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439840834, "dur":4750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wn35738jchzo.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439845699, "dur":781, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439846480, "dur":1646, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439848137, "dur":489, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439845609, "dur":3017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4wt7la0usozd.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439848695, "dur":72, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1728931439848767, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1728931439848682, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aj66adfhq9a2.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439849042, "dur":892, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439850101, "dur":341, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439848966, "dur":1477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kov7eefbty4f.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439850556, "dur":404, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439850961, "dur":758, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439851723, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439850494, "dur":1325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uuj3ydoebc7i.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439851846, "dur":497, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439852343, "dur":2601, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439854952, "dur":822, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439851841, "dur":3933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cxptybe52y8v.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439855805, "dur":874, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__38.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439856686, "dur":860, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__38.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439857550, "dur":230, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439855787, "dur":1994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wfrcp3idohqd.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439857910, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439857965, "dur":341, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439858312, "dur":157, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439857817, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p0m7vdhhofex.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439858500, "dur":712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__29.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439859212, "dur":1390, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__29.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439860633, "dur":395, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439858494, "dur":2535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/atuhwp7to021.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439861066, "dur":626, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439861692, "dur":625, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1728931439862320, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931439861055, "dur":1366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r3ajkh0etyde.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931439862582, "dur":1147196, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r3ajkh0etyde.o" }}
+,{ "pid":12345, "tid":7, "ts":1728931441009800, "dur":52411355, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1728931493421187, "dur":56, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":7, "ts":1728931493421313, "dur":64, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":8, "ts":1728931434808474, "dur":3330, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434811804, "dur":808, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434812613, "dur":863, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434813477, "dur":747, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434814224, "dur":771, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434814995, "dur":763, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434815758, "dur":253, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434816011, "dur":3549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434819560, "dur":2606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931434822191, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434822362, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434822814, "dur":593, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434823461, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434823663, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434823821, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library/Bee/artifacts/WebGL/ManagedStripped/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1728931434822166, "dur":2173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ICallRegistrationGenerator /Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931434824381, "dur":5016180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439840581, "dur":643, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__52.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439841224, "dur":940, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__52.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439842168, "dur":102, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439840570, "dur":1700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wd9sahgo9yf3.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439842271, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439842486, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uqm0i0fq16nf.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439842604, "dur":591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439843195, "dur":1854, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.InputSystem.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439845065, "dur":827, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439842597, "dur":3296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vxovxp7e6uw6.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439845996, "dur":637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439846634, "dur":827, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439847465, "dur":297, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439845973, "dur":1790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iat2e50vu0ka.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439847792, "dur":578, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__47.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439848370, "dur":919, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__47.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439849296, "dur":855, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439847781, "dur":2371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i2n7hhuwnydp.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439850152, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439850283, "dur":1033, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439851316, "dur":2067, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/asifahmed/Documents/GitHub/SunkenSouls/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1728931439853418, "dur":1027, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.1.0f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc" }}
+,{ "pid":12345, "tid":8, "ts":1728931439854488, "dur":857, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931439850210, "dur":5135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yj8zbifew444.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931439855497, "dur":1348650, "ph":"X", "name": "C_WebGL_wasm",  "args": { "detail":"Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yj8zbifew444.o" }}
+,{ "pid":12345, "tid":8, "ts":1728931441204165, "dur":52217049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1728931493421263, "dur":85, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles build/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":0, "ts":1728931493428514, "dur":530, "ph":"X", "name": "ProfilerWriteOutput" }
+,
